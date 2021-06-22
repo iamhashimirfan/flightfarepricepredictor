@@ -1,3 +1,4 @@
+st.set_page_config(page_title="Flight Price Predictor App",page_icon="✈️")
 import streamlit as st
 import datetime
 import pandas as pd
@@ -49,8 +50,6 @@ def pre_process(twt):
 # Flight Price Prediction
 Fill the necessary details and get approx price. 
 '''
-st.set_page_config(page_title='Flight Fare Price Predictor')
-
 airline = ['IndiGo', 'Air India', 'Jet Airways', 'SpiceJet', 'Multiple carriers', 'GoAir', 'Vistara', 'Air Asia', 'Vistara Premium economy', 'Jet Airways Business',
            'Multiple carriers Premium economy', 'Trujet']
 source = ['Kolkata', 'Delhi', 'Chennai', 'Mumbai', 'Banglore']

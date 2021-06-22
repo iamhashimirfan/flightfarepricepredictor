@@ -49,7 +49,7 @@ def pre_process(twt):
 # Flight Price Prediction
 Fill the necessary details and get approx price. 
 '''
-st.beta_set_page_config(page_title='Flight Fare Price Predictor')
+st.set_page_config(page_title='Flight Fare Price Predictor')
 
 airline = ['IndiGo', 'Air India', 'Jet Airways', 'SpiceJet', 'Multiple carriers', 'GoAir', 'Vistara', 'Air Asia', 'Vistara Premium economy', 'Jet Airways Business',
            'Multiple carriers Premium economy', 'Trujet']

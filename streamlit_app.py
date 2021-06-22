@@ -1,4 +1,4 @@
-st.set_page_config(page_title="Flight Price Predictor App",page_icon="✈️")
+
 import streamlit as st
 import datetime
 import pandas as pd
@@ -9,6 +9,8 @@ import string
 import pandas as pd
 from datetime import date
 from Flight_Price_Predict import predict
+
+st.set_page_config(page_title="Flight Price Predictor App",page_icon="✈️")
 
 #Twitter Access and API keys
 consumerKey = "xeY9xjMdDA9lnnRy5zIdLxMht"
